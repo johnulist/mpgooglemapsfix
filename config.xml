@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>mpgooglemapsfix</name>
+	<displayName><![CDATA[Google Maps fix - Store locator]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Fixes the Google Maps view on the store locator page]]></description>
+	<author><![CDATA[Mijn Presta]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
