@@ -17,5 +17,9 @@ By enabling you to configure the Google Maps API key, you can display the Google
 This module has been tested with these versions:  
 - `1.6.1.6`
 
+## Minimum requirements
+- PHP `5.4`
+- PrestaShop `1.6.1.0`
+
 ## License
 Academic Free License 3.0
