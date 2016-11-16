@@ -13,7 +13,7 @@ class StoresController extends StoresControllerCore
             $default_country = new Country((int)Tools::getCountry());
             $googleMapsJs = 'http'.((Configuration::get('PS_SSL_ENABLED') && Configuration::get('PS_SSL_ENABLED_EVERYWHERE')) ? 's' : '').'://maps.google.com/maps/api/js?sensor=true&region='.substr($default_country->iso_code, 0, 2);
             if (Configuration::get('MPGOOGLEMAPSFIX_API_KEY')) {
-                $googleMapsJs .= '&'.rawurlencode(Configuration::get('MPGOOGLEMAPSFIX_API_KEY'));
+                $googleMapsJs .= '&key='.rawurlencode(Configuration::get('MPGOOGLEMAPSFIX_API_KEY'));
             }
             $this->addJS($googleMapsJs);
             $this->addJS(_THEME_JS_DIR_.'stores.js');
